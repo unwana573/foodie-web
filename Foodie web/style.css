@@ -1,0 +1,192 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;   
+    margin: 0;   
+    font-family: sans-serif;
+}
+
+.nav ul {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    background-color: rgb(9, 8, 8);
+    height: 60px;
+    align-items: center;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+label {
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: -2%;
+    margin-right: 7%;
+}
+
+span {
+    color: orangered;
+    font-family: cursive;
+
+}
+
+.btn {
+    margin-left: 12%;
+    height: 55%;
+    width: 10%;
+    background: transparent;
+    border: orangered solid 2px;
+    border-radius: 3%;
+} 
+
+a:hover {
+    color: orangered;
+}
+    
+.sec-1 {
+    background-image: url(spaghetti-2931846_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 503PX;
+    text-align: center;    
+    padding-top: 10%;
+    animation: change 10s infinite ease-in-out ;
+}    
+    
+.sec-1 h5 {
+   color: orangered;
+   font-size: 30px; 
+}
+    
+.sec-1 h2 {
+   color: white;
+   font-size: 60px; 
+}
+    
+.sec-1 ul{
+   display: flex;
+   justify-content: center;
+    gap: 5%;
+    color: white;
+    font-size: xx-large;
+}
+
+samp {  
+    color: olivedrab;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec-1 ol{
+    justify-content: center;
+    display: flex;
+    gap: 5%;
+}
+
+.sec-1 button{
+    height: 255%;
+    width: 165%;
+    margin-top: 5%;
+}
+
+.btn-1 {
+    background: orangered; 
+    color: white;     
+    border: 2px solid orangered;
+    border-radius: 45px;
+    font-size: 17px;
+    margin-left: -15%;
+}
+
+.btn-2 {
+    background: transparent; 
+    color: white;       
+    border: 2px solid white;
+    border-radius: 45px;
+    font-size: 17px;
+}
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes change  {
+    0%
+    {
+        background-image: url(food-366875_1920.jpg);
+    }
+    50%   
+    {
+        background-image: url(bell-peppers-1302126_1920.jpg);
+    }
+}
